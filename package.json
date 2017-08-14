@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack --env=dev --config=webpack.configs/webpack.dev.js",
     "watch": "webpack --watch --config=webpack.configs/webpack.dev.js",
-    "serve": "webpack-dev-server --open --config=webpack.configs/webpack.dev.js"
+    "serve": "webpack-dev-server --open --config=webpack.configs/webpack.dev.js",
+    "serve-dist": "webpack-dev-server --open --config=webpack.configs/webpack.prod.js"
   },
   "repository": {
     "type": "git",
